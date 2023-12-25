@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import MovieList from "./components/MovieList/MovieList";
+import Filter from "./components/Filter/Filter";
+import movies from "./movies";
+import { Movie } from "./types";
+import { Background } from "./components/Background/Background";
+import styles from "./App.module.css";
 
 function App() {
+  const [value, setValue] = useState<Movie[]>(movies);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Background>
+      <div className={styles.app}>
+        <div className={styles.filter}>
+          <Filter filteredMovies={setValue} />
+        </div>
+        <hr />
+        <div className={styles.list}>
+          <MovieList movies={value} />
+        </div>
+      </div>
+    </Background>
   );
 }
 

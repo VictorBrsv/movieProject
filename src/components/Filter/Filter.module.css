@@ -1,0 +1,48 @@
+@media screen and (max-width: 375px) {
+  .container {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 300px;
+}
+
+form {
+  width: 300px;
+}
+
+span {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.movies_app {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: larger;
+}

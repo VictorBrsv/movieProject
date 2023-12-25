@@ -1,0 +1,12 @@
+button {
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.ascending {
+  background-color: rgb(87, 161, 87);
+}
+
+.descending {
+  background-color: rgb(210, 92, 92);
+}

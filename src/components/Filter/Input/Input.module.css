@@ -1,0 +1,13 @@
+input {
+  width: 292px;
+  height: 25px;
+  border: 2px solid rgb(8, 75, 113);
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.input_box {
+  margin-bottom: 9px;
+}

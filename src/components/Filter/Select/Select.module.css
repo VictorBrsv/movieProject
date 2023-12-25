@@ -1,0 +1,12 @@
+.select {
+  background-color: blanchedalmond;
+  border: 2px solid rgb(8, 75, 113);
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.select_box {
+  margin-bottom: 9px;
+}
