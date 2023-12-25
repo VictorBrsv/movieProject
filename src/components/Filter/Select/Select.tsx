@@ -1,7 +1,7 @@
 import React from "react";
 import Select from "react-select";
-import movies from "../../../movies";
-import { Years } from "../../../types";
+import movies from "../../../data/movies";
+import { Years } from "../../../data/types";
 import { years } from "../const";
 import { sortedYears } from "../const";
 import { FilterProps } from "../filterProps";

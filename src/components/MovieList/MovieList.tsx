@@ -1,5 +1,5 @@
 import React from "react";
-import { Movie } from "../../types";
+import { Movie } from "../../data/types";
 import styles from "./MovieList.module.css";
 
 interface MoviesListProps {

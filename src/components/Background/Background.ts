@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImage from "../../pic.jpg";
+import backgroundImage from "../../data/pic.jpg";
 
 export const Background = styled.div`
  &::before {

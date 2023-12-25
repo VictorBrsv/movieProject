@@ -1,4 +1,4 @@
-import movies from "../../../movies";
+import movies from "../../../data/movies";
 import { FilterProps } from "../filterProps";
 import styles from "./Sort.module.css";
 

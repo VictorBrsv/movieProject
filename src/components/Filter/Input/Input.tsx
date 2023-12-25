@@ -1,5 +1,5 @@
 import { ChangeEvent, useState } from "react";
-import movies from "../../../movies";
+import movies from "../../../data/movies";
 import { FilterProps } from "../filterProps";
 import styles from "./Input.module.css";
 

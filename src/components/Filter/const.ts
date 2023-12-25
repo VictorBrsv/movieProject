@@ -1,5 +1,5 @@
-import movies from "../../movies";
-import { Years } from "../../types";
+import movies from "../../data/movies";
+import { Years } from "../../data/types";
 
 export const years = Array.from(new Set(movies.map((movie) => movie.year))).map(
   (year) => ({

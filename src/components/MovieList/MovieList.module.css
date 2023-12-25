@@ -45,6 +45,10 @@
   border-radius: 10px;
   background-color: rgb(96, 127, 156);
   color: aliceblue;
+  box-shadow: 10px 10px 15px rgba(24, 24, 24, 0.3);
+  max-width: 300px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .movie_container:hover {
